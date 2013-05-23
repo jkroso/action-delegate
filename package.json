@@ -1,0 +1,25 @@
+{
+  "name": "action-delegate",
+  "version": "0.1.0",
+  "description": "filter events bay target using CSS selectors",
+  "dependencies": {},
+  "devDependencies": {
+    "bigfile": "~0.5.1",
+    "sourcegraph": "~0.7.1",
+    "happen": "~0.1.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jkroso/action-delegate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jkroso/action-delegate/issues"
+  },
+  "keywords": [
+    "event",
+    "delegate",
+    "action"
+  ],
+  "author": "Jake Rosoman",
+  "license": "MIT"
+}

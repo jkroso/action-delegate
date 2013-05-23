@@ -1,0 +1,12 @@
+{
+  "production": {
+    "action": "http://github.com/jkroso/action/tarball/0.1.0",
+    "unique-selector": "http://github.com/jkroso/unique-selector/tarball/0.0.2"
+  },
+  "development": {
+    "presenter": "http://github.com/jkroso/presenter/tarball/master",
+    "happen": "http://github.com/tmcw/happen/tarball/v0.1.2",
+    "mocha": "http://github.com/visionmedia/mocha/tarball/1.9.0",
+    "chai": "http://github.com/chaijs/chai/tarball/1.6.0"
+  }
+}

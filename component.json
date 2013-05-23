@@ -1,0 +1,16 @@
+{
+  "name": "action-delegate",
+  "repo": "jkroso/action-delegate",
+  "description": "filter events bay target using CSS selectors",
+  "version": "0.1.0",
+  "keywords": ["event","delegate","action"],
+  "dependencies": {
+    "jkroso/action": "*",
+    "jkroso/presenter": "*",
+    "jkroso/unique-selector": "*"
+  },
+  "scripts": [
+	  "index.js"
+  ],
+  "license": "MIT"
+}
