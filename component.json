@@ -6,7 +6,6 @@
   "keywords": ["event","delegate","action"],
   "dependencies": {
     "jkroso/action": "*",
-    "jkroso/presenter": "*",
     "jkroso/unique-selector": "*"
   },
   "scripts": [

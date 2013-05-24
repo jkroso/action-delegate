@@ -1,29 +1,40 @@
 
 # action-delegate
 
-  filter events by target using CSS selectors
+  event delegation for [action](//github.com/jkroso/action)
 
 ## Getting Started
 
-_With component_  
+_With [component](//github.com/component/component), [packin](//github.com/jkroso/packin) or [npm](//github.com/isaacs/npm)_  
 
-	$ component install jkroso/action-delegate
-
-_With npm_  
-
-	$ npm install jkroso/action-delegate --save
+	$ {package mananger} install jkroso/action-delegate
 
 then in your app:
 
 ```js
-var delegate = require('action-delegate')
+var delegator = require('action-delegate')
 ```
 
 ## API
 
 - [action-delegate()](#action-delegate)
+- [presenter()](#presenter)
 
 ### action-delegate()
+
+```js
+delegator()
+	.on('> button.ok', submit)
+	.on('> button.cancel', cancel)
+```
+
+### with [presenter](//github.com/jkroso/presenter)
+
+```js
+presenter.action('mousedown', delegator())
+	.on('> button.ok', submit)
+	.on('> button.cancel', cancel)
+```
 
 ## Running the tests
 
